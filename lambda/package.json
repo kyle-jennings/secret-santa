@@ -1,0 +1,23 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "aws-sdk": "^2.485.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "express": "4.17.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1"
+  },
+  "scripts": {
+    "start": "BUCKET_NAME=sexytimeis.fun HASH_KEY='B1w&T7TesBL~FN2>|5zZ.x|7ni])1fNuvsGjSs|*_-gDf9|p-~zA{)[`m!-X2cf;' nodemon express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
